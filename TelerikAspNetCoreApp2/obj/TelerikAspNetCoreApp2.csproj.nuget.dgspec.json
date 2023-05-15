@@ -1,0 +1,83 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Demos\\GitHub\\dotnet_core_basic_grid_demo\\TelerikAspNetCoreApp2\\TelerikAspNetCoreApp2.csproj": {}
+  },
+  "projects": {
+    "D:\\Demos\\GitHub\\dotnet_core_basic_grid_demo\\TelerikAspNetCoreApp2\\TelerikAspNetCoreApp2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Demos\\GitHub\\dotnet_core_basic_grid_demo\\TelerikAspNetCoreApp2\\TelerikAspNetCoreApp2.csproj",
+        "projectName": "TelerikAspNetCoreApp2",
+        "projectPath": "D:\\Demos\\GitHub\\dotnet_core_basic_grid_demo\\TelerikAspNetCoreApp2\\TelerikAspNetCoreApp2.csproj",
+        "packagesPath": "C:\\Users\\jeetendra.gund\\.nuget\\packages\\",
+        "outputPath": "D:\\Demos\\GitHub\\dotnet_core_basic_grid_demo\\TelerikAspNetCoreApp2\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "D:\\Demos\\GitHub\\dotnet_core_basic_grid_demo\\NuGet.Config",
+          "C:\\Users\\jeetendra.gund\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Progress\\Telerik UI for ASP.NET Core R1 2023\\": {},
+          "C:\\Program Files (x86)\\Progress\\Telerik UI for ASP.NET Core R1 2023\\wrappers\\aspnetcore\\Binaries\\AspNet.Core": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Telerik.UI.for.AspNet.Core": {
+              "target": "Package",
+              "version": "[2023.1.314, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.116\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
